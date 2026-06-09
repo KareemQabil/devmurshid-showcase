@@ -1,0 +1,255 @@
+:root {
+  --bg: #071120;
+  --surface: rgba(10, 21, 37, 0.84);
+  --surface-soft: rgba(16, 31, 52, 0.72);
+  --text: #e9eef8;
+  --muted: #97a7c5;
+  --border: rgba(150, 184, 255, 0.12);
+  --accent: #33d4ff;
+  --accent-warm: #ffbd3a;
+  --max-width: 1220px;
+  --shadow: 0 28px 70px rgba(0, 0, 0, 0.35);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: var(--text);
+  font-family: "Space Grotesk", "IBM Plex Sans Arabic", sans-serif;
+  background:
+    radial-gradient(circle at top left, rgba(51, 212, 255, 0.16), transparent 28%),
+    radial-gradient(circle at top right, rgba(255, 189, 58, 0.08), transparent 24%),
+    linear-gradient(180deg, #07101d 0%, #0a1528 50%, #06101d 100%);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.shell {
+  width: min(calc(100% - 32px), var(--max-width));
+  margin: 0 auto;
+  padding: 20px 0 48px;
+}
+
+.topbar {
+  position: sticky;
+  top: 16px;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 18px;
+  margin-bottom: 28px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: rgba(7, 16, 29, 0.76);
+  backdrop-filter: blur(16px);
+}
+
+.topbar nav {
+  display: flex;
+  gap: 18px;
+}
+
+.topbar nav a,
+.brand {
+  font-weight: 600;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 22px;
+  margin-bottom: 28px;
+}
+
+.card {
+  border: 1px solid var(--border);
+  border-radius: 28px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.hero-copy,
+.copy,
+.compact,
+.section-head {
+  position: relative;
+}
+
+.hero-copy {
+  padding: 30px;
+  border: 1px solid var(--border);
+  border-radius: 28px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.eyebrow {
+  margin: 0 0 12px;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--accent);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 5vw, 4.6rem);
+  line-height: 1.04;
+  max-width: 11ch;
+}
+
+.hero-copy p:not(.eyebrow),
+.section-head p:not(.eyebrow),
+.copy p,
+.compact li {
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 24px 0;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 52px;
+  padding: 0 20px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  font-weight: 700;
+}
+
+.button.primary {
+  background: linear-gradient(135deg, var(--accent), #53e8b2);
+  color: #071120;
+}
+
+.button.secondary {
+  border-color: var(--border);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.chips li,
+.tag {
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 0.84rem;
+}
+
+.hero-image img,
+.grid img {
+  width: 100%;
+  height: auto;
+}
+
+.section {
+  margin-top: 30px;
+}
+
+.section-head {
+  margin-bottom: 18px;
+  max-width: 760px;
+}
+
+.section-head h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.feature {
+  grid-column: span 2;
+}
+
+.copy,
+.compact {
+  padding: 20px 22px 0;
+}
+
+.card img {
+  margin-top: 16px;
+}
+
+.boundary-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.compact {
+  padding-bottom: 18px;
+}
+
+.compact ul {
+  margin: 16px 0 0;
+  padding-left: 20px;
+}
+
+@media (max-width: 980px) {
+  .hero,
+  .grid,
+  .boundary-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .feature {
+    grid-column: auto;
+  }
+}
+
+@media (max-width: 700px) {
+  .shell {
+    width: min(calc(100% - 18px), var(--max-width));
+    padding-top: 14px;
+  }
+
+  .topbar,
+  .topbar nav,
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-copy {
+    padding: 22px;
+  }
+}
