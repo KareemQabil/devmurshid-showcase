@@ -1,0 +1,39 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" rx="32" fill="#081120"/>
+  <rect x="24" y="24" width="1232" height="672" rx="28" fill="#0C1730"/>
+  <text x="72" y="90" fill="#E8F0FF" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="700">DeVMurshid Public Product Map</text>
+  <text x="72" y="128" fill="#7ED7FF" font-family="Segoe UI, Arial, sans-serif" font-size="20">The product is framed as a structured engineering workflow system, not only a coding chatbot.</text>
+
+  <rect x="72" y="180" width="200" height="112" rx="18" fill="#13233B"/>
+  <text x="102" y="228" fill="#E8F0FF" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Scan</text>
+  <text x="102" y="262" fill="#AEBEDB" font-family="Segoe UI, Arial, sans-serif" font-size="20">repo context and symbols</text>
+
+  <rect x="304" y="180" width="200" height="112" rx="18" fill="#13233B"/>
+  <text x="334" y="228" fill="#E8F0FF" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Blueprint</text>
+  <text x="334" y="262" fill="#AEBEDB" font-family="Segoe UI, Arial, sans-serif" font-size="20">architecture and task framing</text>
+
+  <rect x="536" y="180" width="200" height="112" rx="18" fill="#13233B"/>
+  <text x="566" y="228" fill="#E8F0FF" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Plan</text>
+  <text x="566" y="262" fill="#AEBEDB" font-family="Segoe UI, Arial, sans-serif" font-size="20">atomic work breakdown</text>
+
+  <rect x="768" y="180" width="200" height="112" rx="18" fill="#13233B"/>
+  <text x="798" y="228" fill="#E8F0FF" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Implement</text>
+  <text x="798" y="262" fill="#AEBEDB" font-family="Segoe UI, Arial, sans-serif" font-size="20">tighter controlled changes</text>
+
+  <rect x="1000" y="180" width="208" height="112" rx="18" fill="#13233B"/>
+  <text x="1030" y="228" fill="#E8F0FF" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Audit</text>
+  <text x="1030" y="262" fill="#AEBEDB" font-family="Segoe UI, Arial, sans-serif" font-size="20">review and summarize results</text>
+
+  <rect x="72" y="360" width="528" height="254" rx="22" fill="#101D35"/>
+  <text x="104" y="408" fill="#7ED7FF" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">What the public proof shows</text>
+  <text x="104" y="452" fill="#E8F0FF" font-family="Segoe UI, Arial, sans-serif" font-size="24">• a real command tree and workflow model</text>
+  <text x="104" y="492" fill="#E8F0FF" font-family="Segoe UI, Arial, sans-serif" font-size="24">• role-based agent framing instead of vague AI branding</text>
+  <text x="104" y="532" fill="#E8F0FF" font-family="Segoe UI, Arial, sans-serif" font-size="24">• explicit safety posture and controlled delivery scope</text>
+  <text x="104" y="572" fill="#E8F0FF" font-family="Segoe UI, Arial, sans-serif" font-size="24">• developer learning support, not just code generation</text>
+
+  <rect x="636" y="360" width="572" height="254" rx="22" fill="#101D35"/>
+  <text x="668" y="408" fill="#7ED7FF" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Public / private line</text>
+  <text x="668" y="452" fill="#E8F0FF" font-family="Segoe UI, Arial, sans-serif" font-size="24">Public: CLI output, workflow model, safety notes</text>
+  <text x="668" y="492" fill="#E8F0FF" font-family="Segoe UI, Arial, sans-serif" font-size="24">Private: provider setup, prompt assets, unstable internals</text>
+  <text x="668" y="532" fill="#E8F0FF" font-family="Segoe UI, Arial, sans-serif" font-size="24">Goal: prove disciplined engineering support publicly</text>
+</svg>

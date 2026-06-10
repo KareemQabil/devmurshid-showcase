@@ -9,6 +9,8 @@ This repo is the public proof layer for the product direction. It uses real comm
 - [Workspace model](docs/workspace-model.md)
 - [Safety and agents](docs/safety-and-agents.md)
 
+![DeVMurshid public product map](assets/infographics/overview.svg)
+
 ## What this showcase covers
 
 - Real CLI command surface from the shipped `dist` build
