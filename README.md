@@ -4,6 +4,11 @@ Public-safe case study and CLI showcase for DeVMurshid, a chat-first engineering
 
 This repo is the public proof layer for the product direction. It uses real command output from the working CLI and explains the workflow shape without exposing private provider configuration, internal prompts, or implementation details that should stay out of a public portfolio surface.
 
+## Supporting docs
+
+- [Workspace model](docs/workspace-model.md)
+- [Safety and agents](docs/safety-and-agents.md)
+
 ## What this showcase covers
 
 - Real CLI command surface from the shipped `dist` build
